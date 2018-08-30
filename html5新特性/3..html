@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="../json2.js"></script>
+<body>
+<script>
+    var a={name:'feifei'};
+    var str=JSON.stringify(a);
+    var b=JSON.parse(str);
+    b.name='benben';
+    alert(a.name);
+</script>
+</body>
+</html>

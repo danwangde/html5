@@ -1,0 +1,99 @@
+<!Doctype HTML>
+<html>
+<head>
+    <title>H5拖放项目</title>
+    <meta http-equiv="content-Type" content="text/html;charset=utf-8" />
+    <style>
+        #list{
+            width:700px ;
+            height: 150px ;
+            border: 3px solid green ;
+            margin-bottom: 20px ;
+        }
+        #copy{
+            width: 300px ;
+            height: 150px ;
+            border: 3px solid green ;
+            float: left ;
+            margin-right: 20px ;
+        }
+        #can{
+            width: 300px ;
+            height: 150px ;
+            border: 3px solid green ;
+            float: left ;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            var java = document.getElementById("java") ;
+            var ajax = document.getElementById("ajax") ;
+            var ee = document.getElementById("ee") ;
+            var web = document.getElementById("web") ;
+            var copy = document.getElementById("copy") ;
+            var can = document.getElementById("can") ;
+            //取消事件的默认行为
+            document.ondragover = function(event) {
+                return false ;
+            };
+            //取消收藏栏和回收站之外的其他drop事件默认行为
+            document.ondrop = function(event) {
+                return false ;
+            } ;
+            //设置开始拖动事件
+
+            java.ondragstart = function(event){
+                event.dataTransfer.setData("text/plain","<item>" + event.target.innerHTML) ;
+            } ;
+            ajax.ondragstart = function(event){
+                event.dataTransfer.setData("text/plain","<item>" + event.target.innerHTML) ;
+            } ;
+            ee.ondragstart = function(event){
+                event.dataTransfer.setData("text/plain","<item>" + event.target.innerHTML) ;
+            } ;
+            web.ondragstart = function(event){
+                event.dataTransfer.setData("text/plain","<item>" + event.target.innerHTML) ;
+            } ;
+            //设置收藏栏的放下收藏事件
+            copy.ondrop = function(event) {
+                var data = event.dataTransfer.getData("text/plain") ;
+                if(data.indexOf("<item>") == 0) {
+                    var ele = document.createElement("div") ;
+                    ele.id = new Date().getUTCMilliseconds() ;
+                    ele.innerHTML = data.substring(6) ;
+                    ele.draggable = "true" ;
+                    ele.ondragstart = function(event) {
+                        event.dataTransfer.setData("text/plain","<remove>" + ele.id) ;
+                    } ;
+                    copy.appendChild(ele) ;
+                }
+            };
+            //设置回收站的删除drop事件
+            can.ondrop = function(event) {
+                var data = event.dataTransfer.getData("text/plain") ;
+                if(data.indexOf("<remove>") == 0) {
+                    var target = document.getElementById(data.substring(8)) ;
+                    copy.removeChild(target) ;
+                }
+            }
+        };
+    </script>
+</head>
+<body>
+<div id="list">
+    <h2>项目列表</h2>
+    <div id="java" draggable="true">疯狂java</div>
+    <div id="ajax" draggable="true">疯狂Ajax</div>
+    <div id="ee" draggable="true">轻量级企业应用实战</div>
+    <div id="web" draggable="true">WEB整合开发</div>
+</div>
+
+<div id="copy">
+    <h2>收藏栏</h2>
+</div>
+
+<div id="can">
+    <h2>回收站</h2>
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--新的输入型控件
+email  :  电子邮箱文本框，跟普通的没什么区别
+当输入不是邮箱的时候，验证通不过
+移动端的键盘会有变化
+tel   :   电话号码
+url   :   网页的URL
+search  :  搜索引擎
+chrome下输入文字后，会多出一个关闭的X
+range  :  特定范围内的数值选择器
+min、max、step( 步数 ) value(当前值)
+例子 :  用JS来显示当前数值
+-->
+<form action="">
+    <input type="range" step="5" min="0" max="20" value="10">
+    <input type="text">
+    <input type="email">
+    <input type="submit">
+
+    <input type="search">
+
+</form>
+<script>
+    var inp=document.getElementsByTagName('input')[1];
+    inp.addEventListener('invalid',fn1,false);
+    inp.oninput=function () {
+        if (this.value=='敏感词'){
+            this.setCustomValidity('请不要输入敏感词');
+        }
+    }
+    function fn1() {
+        alert(this.validity.customError);
+    }
+</script>
+</body>
+</html>

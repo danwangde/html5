@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--新的表单特性和函数
+placeholder  :  输入框提示信息
+例子 :  微博的密码框提示
+autocomplete  :  是否保存用户输入值
+默认为on，关闭提示选择off
+autofocus  :  指定表单获取输入焦点
+list和datalist  :  为输入框构造一个选择列表
+list值为datalist标签的id
+required  :  此项必填，不能为空
+Pattern : 正则验证  pattern="\d{1,5}“
+Formaction 在submit里定义提交地址
+-->
+<form action="">>
+    <input type="text" placeholder="请输入4-14之间的数字" name="user" autocomplete="on">
+    <input type="number" autofocus="">
+    <input type="text" list="haha">
+    <datalist id="haha">
+        <option value="123">123</option>
+        <option value="234">234</option>
+        <option value="345">345</option>
+    </datalist>
+    <input type="submit">
+</form>
+</body>
+</html>

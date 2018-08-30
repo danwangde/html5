@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--
+//valueMissing   当输入值为空的时候返回true    required(不能为空)
+//typeMismatch   当输入类型和要求的类型不一致的时候返回true  email
+//patternMismatch 当用户输入的内容和预期的正则要求不匹配 返回true  pattern(正则)
+//tooLong 当用户输入的长度 超出了maxlength的限制 返回true  range
+//customError  不符合在定义验证的时候返回true
+-->
+<form action="">
+    <input type="text" >
+
+
+    <input type="submit">
+
+
+</form>
+<script>
+    var inp=document.getElementsByTagName('input')[0];
+    //inp.addEventListener('invalid',fn1,false);
+    inp.oninput=function () {
+        if (this.value.length<5){
+            this.setCustomValidity('不能小于5位数');
+        }else{
+            this.setCustomValidity('');
+        }
+    }
+    /*function fn1() {
+        alert(this.validity.customError);
+    }*/
+</script>
+</body>
+</html>
