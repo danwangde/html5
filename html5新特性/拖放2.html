@@ -23,17 +23,18 @@
                 aLi[i].ondragstart=function (ev) {
                     var ev=ev || event;
 
-                    ev.dataTransfer.setData('name',this.index);
+                    ev.dataTransfer.setData('Text',this.index);
                     this.style.background='green';
                 }
 
                 oDiv.ondragover=function(ev){
                     ev.preventDefault();
                 }
-                oDiv.ondragenter=function (ev) {
+                oDiv.ondrop=function (ev) {
                     var ev=ev || event;
+                    ev.preventDefault();
 
-                    oUl.removeChild(aLi[ev.dataTransfer.getData('name')]);
+                    oUl.removeChild(aLi[ev.dataTransfer.getData('Text')]);
 
                     for (var i =0;i<aLi.length;i++){
                         aLi[i].index=i;
