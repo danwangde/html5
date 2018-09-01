@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+            background: #000;
+        }
+        #draw{
+            background: #fff;
+        }
+
+    </style>
+    <script>
+        window.onload=function () {
+            var oDraw=document.getElementById('draw');
+            var context=oDraw.getContext('2d');
+
+
+            
+            function toDraw() {
+                var x=200;
+                var y=200;
+                var r=150;
+
+                //context.clearRect(0,0,oDraw.width,oDraw.height);
+
+                var oDate=new Date();
+                var oHours=oDate.getHours();
+                var oMinutes=oDate.getMinutes();
+                var oSeconds=oDate.getSeconds();
+
+                var oHoursValue=(-90+oHours*30+oMinutes/2)*Math.PI/180;
+                var oMinutesValue=(-90+oMinutes*6)*Math.PI/180;
+                var oSecondsValue=(-90+oSeconds*6)*Math.PI/180;
+
+
+                context.beginPath();
+                for (var i=0;i<60;i++){
+                    context.moveTo(x,y);
+                    context.arc(x,y,r,6*i*Math.PI/180,6*(i+1)*Math.PI/180,false);
+                }
+
+                context.closePath();
+                context.stroke();
+
+
+                context.beginPath();
+                context.fillStyle='white';
+                context.moveTo(x,y);
+                context.arc(x,y,r*19/20,0,2*(i+1)*Math.PI,false);
+                context.closePath();
+                context.fill();
+
+                context.lineWidth=3;
+                context.beginPath();
+                for (var i=0;i<12;i++){
+                    context.moveTo(x,y);
+                    context.arc(x,y,r,30*i*Math.PI/180,30*(i+1)*Math.PI/180,false);
+                }
+                context.closePath();
+                context.stroke();
+
+
+                context.fillStyle='white';
+                context.beginPath();
+                context.moveTo(x,y);
+                context.arc(x,y,r*18/20,0,2*Math.PI,false);
+                context.closePath();
+                context.fill();
+
+                //时针
+                context.lineWidth=5;
+                context.beginPath();
+                context.moveTo(x,y);
+                context.arc(x,y,r*10/20,oHoursValue,oHoursValue,false);
+                context.closePath();
+                context.stroke();
+
+                //分针
+                context.lineWidth=3;
+                context.beginPath();
+                context.moveTo(x,y);
+                context.arc(x,y,r*15/20,oMinutesValue,oMinutesValue,false);
+                context.closePath();
+                context.stroke();
+
+                //秒针
+                context.lineWidth=2;
+                context.beginPath();
+                context.moveTo(x,y);
+                context.arc(x,y,r*17/20,oSecondsValue,oSecondsValue,false);
+                context.closePath();
+                context.stroke();
+
+            }
+            setInterval(function () {
+                toDraw();
+            },1000)
+            //toDraw();
+        }
+    </script>
+</head>
+<body>
+<canvas id="draw" width="400" height="400"></canvas>
+</body>
+</html>

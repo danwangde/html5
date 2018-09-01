@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d63fc36-d22d-4787-bf36-07fb8a87c298" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html5新特性/img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html5新特性/img2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html5新特性/img3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html5新特性/img4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html5新特性/插入图片.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canvas/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canvas/7.插入图片.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canvas/miaov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canvas/v.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canvas/weibo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html5新特性/拖放2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html5新特性/拖放2.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,55 +22,71 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="6.历史管理下.html" pinned="false" current-in-tab="false">
-        <entry file="file://C:/wamp64/www/html5-history(pushstate)/6.历史管理下.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5.历史管理（hash）.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html5新特性/5.历史管理（hash）.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="6.历史管理下.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html5新特性/6.历史管理下.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            <state>
+              <caret selection-end-line="1" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="拖放实现的小程序.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html5新特性/拖放实现的小程序.html">
+      <file leaf-file-name="1..html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/canvas/1..html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="98" column="7" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
+            <state relative-caret-position="456">
+              <caret line="24" column="68" selection-end-line="34" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="5上传图片预览.html" pinned="false" current-in-tab="false">
-        <entry file="file://D:/BaiduNetdiskDownload/HTML5详解/HTML5的新特性课件/拖放/5上传图片预览.html">
+      <file leaf-file-name="3.代码模块.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/canvas/3.代码模块.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-912" />
+            <state relative-caret-position="133">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="插入图片.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html5新特性/插入图片.html">
+      <file leaf-file-name="4.钟表.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/canvas/4.钟表.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1520">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="532">
+              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6.变换.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/canvas/6.变换.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="v.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/canvas/v.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7.插入图片.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/canvas/7.插入图片.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weibo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/canvas/weibo.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="JSON新方法.html" pinned="false" current-in-tab="false">
@@ -84,20 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="拖放2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html5新特性/拖放2.html">
+      <file leaf-file-name="2..html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/canvas/2..html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="来回拖动的图片.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html5新特性/来回拖动的图片.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+            <state relative-caret-position="437">
+              <caret line="23" column="22" selection-end-line="48" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -145,6 +150,14 @@
         <option value="$PROJECT_DIR$/html5新特性/拖放2.html" />
         <option value="D:/BaiduNetdiskDownload/HTML5详解/HTML5的新特性课件/拖放/6拖拽购物车.html" />
         <option value="$PROJECT_DIR$/html5新特性/插入图片.html" />
+        <option value="$PROJECT_DIR$/canvas/1..html" />
+        <option value="$PROJECT_DIR$/canvas/3.代码模块.html" />
+        <option value="$PROJECT_DIR$/canvas/2..html" />
+        <option value="$PROJECT_DIR$/canvas/问我.html" />
+        <option value="$PROJECT_DIR$/canvas/4.钟表.html" />
+        <option value="$PROJECT_DIR$/canvas/6.变换.html" />
+        <option value="$PROJECT_DIR$/canvas/v.html" />
+        <option value="$PROJECT_DIR$/canvas/7.插入图片.html" />
       </list>
     </option>
   </component>
@@ -181,7 +194,12 @@
             <path>
               <item name="html5" type="b2602c69:ProjectViewProjectNode" />
               <item name="html5" type="462c0819:PsiDirectoryNode" />
-              <item name="html5新特性" type="462c0819:PsiDirectoryNode" />
+              <item name="canvas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html5" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,13 +211,14 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/web/BOM" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\html5\canvas" />
       <recent name="D:\html5\html5新特性" />
       <recent name="D:\h5\img" />
       <recent name="D:\h5\html5语义化标签的兼容" />
@@ -230,15 +249,18 @@
       <workItem from="1535554086706" duration="25521000" />
       <workItem from="1535630150921" duration="5231000" />
       <workItem from="1535641318364" duration="8229000" />
+      <workItem from="1535695440117" duration="13848000" />
+      <workItem from="1535763173132" duration="7410000" />
+      <workItem from="1535772439668" duration="2495000" />
+      <workItem from="1535809299185" duration="1264000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38981000" />
+    <option name="totallyTimeSpent" value="63998000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24304539" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -267,48 +289,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html5新特性/4.自定义数据与加载.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5新增表单控件/4.html5表单验证反馈.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/wamp64/www/html5-history(pushstate)/6.历史管理下.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5新特性/拖放.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5新特性/拖放2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5新特性/拖放实现的小程序.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1862">
-          <caret line="98" column="7" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html5新特性/来回拖动的图片.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -529,7 +509,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html5新特性/来回拖动的图片.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
+        <state relative-caret-position="646">
           <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
         </state>
       </provider>
@@ -543,34 +523,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html5新特性/5.历史管理（hash）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5新特性/6.历史管理下.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        <state relative-caret-position="19">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html5新特性/拖放实现的小程序.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
+        <state relative-caret-position="1862">
           <caret line="98" column="7" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/BaiduNetdiskDownload/HTML5详解/HTML5的新特性课件/拖放/5上传图片预览.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-912" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html5新特性/JSON新方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -583,17 +544,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html5新特性/拖放2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="684">
           <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5新特性/插入图片.html">
+    <entry file="file://$PROJECT_DIR$/html5新特性/插入图片.html" />
+    <entry file="file://$PROJECT_DIR$/canvas/1..html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="456">
+          <caret line="24" column="68" selection-end-line="34" selection-end-column="7" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5新特性/6.历史管理下.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/3.代码模块.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/2..html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="22" selection-end-line="48" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5新特性/JSON新方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/问我.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/4.钟表.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/6.变换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/v.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/miaov.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/7.插入图片.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/weibo.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

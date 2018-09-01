@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+            background: #000;
+        }
+        #draw{
+            background: #fff;
+        }
+
+    </style>
+    <script>
+        window.onload=function () {
+            var oDraw=document.getElementById('draw');
+            
+
+            if (oDraw.getContext){
+                var context=oDraw.getContext('2d');
+
+                oDraw.onmousedown=function (ev) {
+                    //context.beginPath();
+                    var ev = ev || window.event;
+
+                    context.moveTo(ev.clientX-oDraw.offsetLeft,ev.clientY-oDraw.offsetTop);
+                    //将绘图游标移动到（x，y）,不画线。
+                    document.onmousemove=function (ev) {
+                        var ev = ev || window.event;
+                        context.lineTo(ev.clientX-oDraw.offsetLeft,ev.clientY-oDraw.offsetTop);
+                        //context.closePath();
+                        context.stroke()
+                    }
+
+                    document.onmouseup = function(){
+                        document.onmousemove = null;
+                        document.onmouseup = null;
+                    };
+
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<canvas id="draw" width="400" height="400"></canvas>
+</body>
+</html>

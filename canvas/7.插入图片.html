@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload=function () {
+            var oDraw=document.getElementById('drawing');
+            var context=oDraw.getContext('2d');
+            document.body.style.background='black';
+            oDraw.style.background='white';
+
+            context.save();
+            var oImg=new Image();
+
+            oImg.onload=function(){
+                draw(this);
+            }
+
+            oImg.src='miaov.png';
+            function draw(obj) {
+                context.drawImage(obj,0,0,400,400)
+            }
+
+
+        }
+    </script>
+</head>
+<body>
+<canvas id="drawing" width="400" height="400"></canvas>
+<!--<img src="miaov.png" alt="">-->
+</body>
+</html>

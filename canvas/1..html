@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+            background: #000;
+        }
+        #draw{
+            background: #fff;
+        }
+
+    </style>
+    <script>
+        window.onload=function () {
+            var oDraw=document.getElementById('draw');
+            var num=0;
+
+            if (oDraw.getContext){
+                var context=oDraw.getContext('2d');
+
+                setInterval(function () {
+                    num++;
+                    context.clearRect(0,0,oDraw.width,oDraw.height);
+                    context.fillRect(num,num,100,100)
+                },30)
+            }
+        }
+    </script>
+</head>
+<body>
+<canvas id="draw" width="400" height="400"></canvas>
+</body>
+</html>

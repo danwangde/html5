@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background: black;
+        }
+        #drawing{
+            background: #fff;
+        }
+    </style>
+    <script>
+        window.onload=function () {
+            var oDraw=document.getElementById('drawing');
+
+            var context=oDraw.getContext('2d');
+            var num=0;
+            var num1=0;
+            var value=1;
+            setInterval(function () {
+                num++;
+
+                context.save();
+
+                context.clearRect(0,0,oDraw.width,oDraw.height);
+                context.translate(100,100);
+                if (num1==120){
+                    value=-1;
+                }else if (num1==0) {
+                    value=1;
+                }
+                num1+=value;
+
+                context.scale(num1*1/60,num1*1/60);
+                context.rotate(num*Math.PI/180);
+                context.translate(-50,-50);//中心点移到方块的中心
+                context.fillRect(0,0,100,100);
+
+                context.restore();
+
+            },30)
+
+        }
+    </script>
+</head>
+<body>
+<canvas id="drawing" width="400" height="400"></canvas>
+</body>
+</html>
