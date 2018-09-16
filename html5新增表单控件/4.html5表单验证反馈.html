@@ -22,7 +22,7 @@
 </form>
 <script>
     var inp=document.getElementsByTagName('input')[0];
-    //inp.addEventListener('invalid',fn1,false);
+    inp.addEventListener('invalid',fn1,false);
     inp.oninput=function () {
         if (this.value.length<5){
             this.setCustomValidity('不能小于5位数');
@@ -30,9 +30,9 @@
             this.setCustomValidity('');
         }
     }
-    /*function fn1() {
+    function fn1() {
         alert(this.validity.customError);
-    }*/
+    }
 </script>
 </body>
 </html>

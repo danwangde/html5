@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d63fc36-d22d-4787-bf36-07fb8a87c298" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/canvas/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/canvas/7.插入图片.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/canvas/miaov.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/canvas/v.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/canvas/weibo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas/weibo.html" beforeDir="false" afterPath="$PROJECT_DIR$/canvas/weibo.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -69,24 +65,28 @@
       <file leaf-file-name="v.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/canvas/v.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
+            <state relative-caret-position="988">
               <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="7.插入图片.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="7.插入图片.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/canvas/7.插入图片.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+            <state relative-caret-position="164">
+              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weibo.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="weibo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/canvas/weibo.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="JSON新方法.html" pinned="false" current-in-tab="false">
@@ -157,6 +157,7 @@
         <option value="$PROJECT_DIR$/canvas/4.钟表.html" />
         <option value="$PROJECT_DIR$/canvas/6.变换.html" />
         <option value="$PROJECT_DIR$/canvas/v.html" />
+        <option value="$PROJECT_DIR$/canvas/weibo.html" />
         <option value="$PROJECT_DIR$/canvas/7.插入图片.html" />
       </list>
     </option>
@@ -211,7 +212,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/web/BOM" />
+    <property name="last_opened_file_path" value="D:/less" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -252,12 +253,13 @@
       <workItem from="1535695440117" duration="13848000" />
       <workItem from="1535763173132" duration="7410000" />
       <workItem from="1535772439668" duration="2495000" />
-      <workItem from="1535809299185" duration="1264000" />
+      <workItem from="1535809299185" duration="2949000" />
+      <workItem from="1535848650040" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63998000" />
+    <option name="totallyTimeSpent" value="65700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -289,6 +291,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/canvas/7.插入图片.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html5新特性/来回拖动的图片.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -608,23 +617,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/canvas/v.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
+        <state relative-caret-position="988">
           <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/miaov.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/canvas/7.插入图片.html">
+    <entry file="file://$PROJECT_DIR$/canvas/weibo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        <state relative-caret-position="532">
+          <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/canvas/weibo.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/canvas/7.插入图片.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
